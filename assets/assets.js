@@ -39,6 +39,7 @@ import ec from "./ec.png"
 import bl from "./bl.png"
 import te from "./te.png"
 import gfgh from "./gfgh.jpg"
+import recipe_ai from "./recipe-ai.png"
 // import Nandini_FullStack_Developer from "./Nandini_FullStackDevelope.pdf"
 export const assets = {
     user_image,
@@ -81,7 +82,8 @@ export const assets = {
     right_arrow_bold_dark,
     ec,
     bl,
-    te
+    te,
+    recipe_ai
     
 };
 

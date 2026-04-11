@@ -28,13 +28,18 @@
 //     )
 // }
 // export default Services
-import { assets, serviceData } from '@/assets/assets'
+import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import {motion} from "motion/react"
 
 const Services = () => {
     const projects = [
+        {
+            image: assets.recipe_ai,
+            title: "AI Recipe & Pantry App",
+            description: `I built a full‑stack AI recipe and pantry web app where users can sign in, track what ingredients they have, and instantly get recipe ideas tailored to their kitchen. The frontend is a modern Next.js App Router experience with pages for a dashboard, recipe discovery by category/cuisine, a personal pantry, and a saved‑recipes collection. On the backend, Strapi + Postgres stores pantry items and recipes so results persist per user. The app uses Google Gemini for two key features: scanning a pantry/fridge photo to detect ingredients and generating recipes from the user’s pantry, with sensible caching so previously generated recipes can be loaded quickly. I also added “product” touches like tiered Free vs Pro limits (Arcjet) with Pro‑locked sections, plus recipe PDF export for easy saving and sharing.`
+        },
         {
             image: assets.ec,
             title: "Ecommerce Shopping Platform",
